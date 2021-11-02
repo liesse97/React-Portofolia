@@ -2,6 +2,9 @@
 //   margin: 0;
 //   padding: 0;
 // }
+#wordpress-section {
+  display: block;
+}
 .proj-container {
   display: flex;
   justify-content: center;
@@ -72,6 +75,9 @@
     }
     .P-btn {
       margin-bottom: 35px;
+      #left-space {
+        margin-left: 0.5em;
+      }
       button:hover {
         background-color: #f48a17;
         color: #fff;

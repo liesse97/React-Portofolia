@@ -163,6 +163,7 @@ nav {
         font-size: 1.2em;
         cursor: pointer;
         z-index: 2;
+        text-decoration: none;
       }
     }
   }
@@ -234,11 +235,18 @@ nav {
     padding: 0.3em 0 0.3em 0.8em;
     cursor: pointer;
     font-weight: 600;
+    a {
+      color: #000;
+    }
+    a:hover {
+      color: #fff;
+    }
   }
   p:hover {
     background-color: #f48a17;
-    color: #fff;
+    // color: #fff;
   }
+
   .fa-envelope:before,
   .fa-github:before,
   .fa-linkedin-in:before {

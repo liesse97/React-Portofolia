@@ -82,7 +82,7 @@ const { Meta } = Card;
                about creating and trying new thing in webdevelopnmnet</p>
                <div className="btn-center">
 {/* <button> <a href="images/CV(1).pdf" download> DOWNLOAD MY CV</a></button></div> */}
- <a href="images/CV(1).pdf" download> DOWNLOAD MY CV</a>
+ <a href="images/CV.pdf" download> DOWNLOAD MY CV</a>
  </div>
 
 
@@ -150,6 +150,11 @@ In my free time I enjoy reading ,music, and spending time with my family.</p>
         src="images/javascript.jpg"
         alt="javascript-pic"
       />
+      <img
+        className="home-img"
+        src="images/wordpress.png"
+        alt="css-pic"
+      />
       <br/>
          <img
         className="home-img"
@@ -166,15 +171,16 @@ In my free time I enjoy reading ,music, and spending time with my family.</p>
         src="images/sass.png"
         alt="html-pic"
       />
+      
 
           </section>
 
           <section className="contact" id="contact">
           <h1>Contact me</h1>
           
-          <p><i class="fas fa-envelope">Email</i></p>
-          <p><i class="fab fa-github">Github</i></p>
-          <p><i class="fab fa-linkedin-in">Linkdln</i></p>
+          <p><a href="mailto:ishimwelieish@gmail.com"> <i class="fas fa-envelope">Email</i></a></p>
+          <p><a href="https://github.com/liesse97" target="_blank" rel="noreferrer"><i class="fab fa-github">Github</i></a></p>
+          <p><a href="https://www.linkedin.com/in/liesse-ishimwe-35982b194/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in">Linkdln</i></a></p>
 
           
 </section>

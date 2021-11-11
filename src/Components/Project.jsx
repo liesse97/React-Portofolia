@@ -58,17 +58,27 @@ function Project() {
                           <div className="P-btn">
                     <div className="card">
                     <div className="imgBx">
-                        <img src="images/to-do.png" alt="" />
+                        <img src="images/music.png" alt="" />
                     </div>
                     <div className="content">
                         <h2>Todo List</h2>
-                        <p>HTML/CSS</p>
+                        <p>HTML/CSS JS</p>
                     </div>
                     
                     
                 </div>
-                <button>View code</button>
-                </div>
+                    <button>
+                       <a href= "https://github.com/liesse97/Music-player.git" target="_blank" rel="noreferrer">
+                           View code
+                           </a>
+                           </button> 
+
+                    <button id="left-space"> 
+                    <a href= "https://music-player2.netlify.app/" target="_blank" rel="noreferrer">
+                        View live
+                        </a>
+                        </button>            
+                         </div>
 
                 
             </section>

@@ -34,7 +34,11 @@ function Project() {
                     </div>
 
                    </div>
-                     <button>View code</button> 
+                     <button>
+                         <a href= "https://github.com/liesse97/React-Portofolia.git" target="_blank" rel="noreferrer">
+                          View code
+                          </a>
+                       </button> 
                     <button id="left-space">View live</button> 
 
                      </div>
@@ -47,11 +51,16 @@ function Project() {
                     </div>
                     <div className="content">
                         <h2>Quill text editor</h2>
-                        <p>HTML/CSS , JS , quilljs</p>
+                        <p>HTML/CSS , JS , quill Api</p>
                     </div>
 
                    </div>
-                     <button>View code</button> 
+                     <button>
+                        <a href= " https://github.com/MarcelR1998/fe19tp1_teamEraser.git" target="_blank" rel="noreferrer">
+                         View code
+                         </a>
+                         </button>
+                          
                      </div>
 
                           {/* card 3 */}

@@ -42,11 +42,6 @@ const { Meta } = Card;
                    <h2> LI</h2>
                 </div>
                 <ul  className={click ? 'nav-menu active' : 'nav-menu'} >
-                {/* <li><Link to="/"  onClick={closeMobileMenu}>Home</Link></li>
-                <li ><Link to="/#about-me" onClick={closeMobileMenu}>About</Link></li>
-               <li> <Link to="/project" onClick={closeMobileMenu}>Projects</Link></li>
-                <li><Link to="/skills" onClick={closeMobileMenu}>Skills</Link></li>
-               <li> <Link to="/contact" onClick={closeMobileMenu}>Contact</Link></li> */}
                 <li><Link smooth to="/"  onClick={closeMobileMenu}>Home</Link></li>
                 <li ><Link smooth to="#about-me" onClick={closeMobileMenu}>About</Link></li>
                <li> <Link smooth to= "#project" onClick={closeMobileMenu}>Projects</Link></li>
@@ -81,7 +76,6 @@ const { Meta } = Card;
           <p>A frontend developer who’s very passionate
                about creating and trying new thing in webdevelopnmnet</p>
                <div className="btn-center">
-{/* <button> <a href="images/CV(1).pdf" download> DOWNLOAD MY CV</a></button></div> */}
  <a href="images/CV.pdf" download> DOWNLOAD MY CV</a>
  </div>
 
@@ -109,31 +103,6 @@ In my free time I enjoy reading ,music, and spending time with my family.</p>
 <section className="skills" id="skills">
           <h1>My Skills</h1>
           
-         
-
-     
-  {/* <Card
-    hoverable
-    style={{ width: 300 }}
-    cover={<img alt="html-pic" src="images/html.jpg" />}
-  >
-    <Meta title="HTML"/>
-  </Card> */}
-
-        
-             {/* <img
-        // className="home-img"
-        src="images/html.jpg"
-        alt="html-pic"
-      /> */}
-
-{/* <Card
-    hoverable
-    style={{ width: 300 }}
-    cover={<img alt="css-pic" src="images/css.jpg" />}
-  > */}
-    {/* <Meta title="HTML"/>
-  </Card> */}
   <img
         className="home-img"
         src="images/html.jpg"

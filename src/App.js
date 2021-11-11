@@ -1,15 +1,15 @@
 import './App.css'
 import {
   BrowserRouter as Router,
-  Route,
-  Switch,
+  // Route,
+  // Switch,
 } from 'react-router-dom'
 import Navbar from './Components/Navbar'
-import Home from './Components/Home'
-import About from './Components/About'
-import Project from './Components/Project'
-import Skills from './Components/Skills'
-import Contact from './Components/Contact'
+// import Home from './Components/Home'
+// import About from './Components/About'
+// import Project from './Components/Project'
+// import Skills from './Components/Skills'
+// import Contact from './Components/Contact'
 
 
 

@@ -39,7 +39,11 @@ function Project() {
                           View code
                           </a>
                        </button> 
-                    <button id="left-space">View live</button> 
+                    <button id="left-space">
+                        <a href= "https://liesse.netlify.app/"target="_blank" rel="noreferrer">
+                        View live
+                        </a>
+                        </button> 
 
                      </div>
 

@@ -73,8 +73,7 @@ const { Meta } = Card;
               Liesse </h2>
            
           
-          <p>A frontend developer who’s very passionate
-               about creating and trying new thing in webdevelopnmnet</p>
+          <p>A frontend developer who creates beautiful and functional websites.</p>
                <div className="btn-center">
  <a href="images/CV.pdf" download> DOWNLOAD MY CV</a>
  </div>
@@ -87,9 +86,9 @@ const { Meta } = Card;
 
       <section className="about-me" id="about-me">
     <h1>About</h1>
-          <p>I'm a front-end-developer with a passion for making beautiful, responsive websites and web applications. Technology has always been a major interest in my life.
-<br/>
-In my free time I enjoy reading ,music, and spending time with my family.</p>
+          <p>I'm a creative front-end developer with a keen desire to constantly learn more to increase and sharpen my proficiency in web programming.
+As a human being, I am flexible, persistent, and goal-oriented with a great interest in creating functional and beautiful pages for the web and writing clean and well-structured code.
+</p>
 </section>
 
 

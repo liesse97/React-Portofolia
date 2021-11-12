@@ -70,7 +70,7 @@ function Project() {
                         <img src="images/music.png" alt="" />
                     </div>
                     <div className="content">
-                        <h2>Todo List</h2>
+                        <h2>Music player</h2>
                         <p>HTML/CSS JS</p>
                     </div>
                     

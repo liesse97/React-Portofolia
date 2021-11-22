@@ -7,29 +7,14 @@ function Project() {
         <div className= 'proj-container'>
             <section className='container'>
 
-                {/* <div className="P-btn">
-                <div className="card">
-                    <div className="imgBx">
-                        <img src="images/potorofolia bild.png" alt="" />
-                       
-                    </div>
-                    <div className="content">
-                         <h2>Card one</h2>
-                        
-                        <p>This project is a functional To-Do list application utilizing React class components and the Web Storage API to store data in localStorage.</p>
-                    </div>
-                <button>View code</button> 
-
-                </div> */}
-
                  <div className="P-btn">
                  <div className="card">
                     <div className="imgBx">
                         <img src="images/potorofolia bild.png" alt="potorofolia" />
                     </div>
                     <div className="content">
-                        <h2>Portofolia</h2>
-                        <p>REACT/SASS</p>
+                        <h2>Portfolio</h2>
+                        <p>React js, React particle js</p>
                         {/* <p>This project is a functional To-Do list application utilizing React class components and the Web Storage API to store data in localStorage.</p> */}
                     </div>
 
@@ -51,19 +36,25 @@ function Project() {
                      <div className="P-btn">
                  <div className="card">
                     <div className="imgBx">
-                        <img src="images/quill-Mobile.png" alt="" />
+                        <img src="images/Mychat.png" alt="chat" />
                     </div>
                     <div className="content">
-                        <h2>Quill text editor</h2>
-                        <p>HTML/CSS , JS , quill Api</p>
+                        <h2>Chat Application</h2>
+                        <p>React JS, Firebase, Chat Engine</p>
                     </div>
 
                    </div>
                      <button>
-                        <a href= " https://github.com/MarcelR1998/fe19tp1_teamEraser.git" target="_blank" rel="noreferrer">
+                        <a href= " https://github.com/liesse97/Chat-react.git" target="_blank" rel="noreferrer">
                          View code
                          </a>
                          </button>
+
+                           <button id="left-space"> 
+                    <a href= "https://mychat2.netlify.app/" target="_blank" rel="noreferrer">
+                        View live
+                        </a>
+                        </button> 
                           
                      </div>
 
@@ -95,7 +86,6 @@ function Project() {
 
                 
             </section>
-            {/* <h1>wordpress</h1> */}
             
         </div>
         <h1>Wordpress</h1>

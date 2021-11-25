@@ -1,11 +1,13 @@
 import React,{useState, useEffect} from "react";
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-
 import "./Navbar.scss";
 import Project from './Project';
+import Skills from './Skills';
+import About from './About';
+import Contact from "./Contact";
+import Home from "./Home";
 import Particle from './Particle';
-   import { Card } from 'antd';
+import { Card } from 'antd';
 
 const Nav = ()=> {
 const [click, setClick] = useState(false)
@@ -54,111 +56,42 @@ const { Meta } = Card;
 
 
                 </div>
-
             </nav>
+
             <article>
-          < Particle />
           <article className={click ? 'blurry-site' : ''}>
+          < Particle />
 
-              <section className='home'>
-
-                  <img
-        // className="home-img"
-        // src="images/pic-dev.png"
-          src="images/go.jpg"
-        alt="home-pic"
-      />
-      <section className='text-home'>
-          <h2>Hi, My name is  
-              Liesse </h2>
-           
-          
-          <p>A frontend developer who creates beautiful and functional websites.</p>
-               <div className="btn-center">
- <a href="images/CV.pdf" download> DOWNLOAD MY CV</a>
- </div>
-
-
-
-      </section>
-            </section>
+            <section className='home'>
+              <Home />
+            </section> 
 
 
       <section className="about-me" id="about-me">
     <h1>About</h1>
-          <p>I'm a creative front-end developer with a keen desire to constantly learn more to increase and sharpen my proficiency in web programming.
-As a human being, I am flexible, persistent, and goal-oriented with a great interest in creating functional and beautiful pages for the web and writing clean and well-structured code.
-</p>
+    <About/>
 </section>
 
 
 <section className="project" id="project">
           <h1>Project</h1>
           <Project />
-       
-          
  </section>
 
 <section className="skills" id="skills">
           <h1>My Skills</h1>
-          
-  <img
-        className="home-img"
-        src="images/html.jpg"
-        alt="html-pic"
-      />
-      <img
-        className="home-img"
-        src="images/css.jpg"
-        alt="css-pic"
-      />
-  
-      <img
-        className="home-img"
-        src="images/javascript.jpg"
-        alt="javascript-pic"
-      />
-      <img
-        className="home-img"
-        src="images/wordpress.png"
-        alt="css-pic"
-      />
-      <br/>
-         <img
-        className="home-img"
-        src="images/react.jpg"
-        alt="react-pic"
-      />
-         <img
-        className="home-img"
-        src="images/figma.png"
-        alt="figma-pic"
-      />
-         <img
-        className="home-img"
-        src="images/sass.png"
-        alt="html-pic"
-      />
-      
-
+          <Skills/>
           </section>
+
+          
 
           <section className="contact" id="contact">
           <h1>Contact me</h1>
-          
-          <p><a href="mailto:ishimwelieish@gmail.com"> <i class="fas fa-envelope">Email</i></a></p>
-          <p><a href="https://github.com/liesse97" target="_blank" rel="noreferrer"><i class="fab fa-github">Github</i></a></p>
-          <p><a href="https://www.linkedin.com/in/liesse-ishimwe-35982b194/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in">Linkdln</i></a></p>
-
-          
+          <Contact/>         
 </section>
+
 </article>
-
-        
-
            </article>
-
-            
         </div>
     )
 }

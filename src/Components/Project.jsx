@@ -1,151 +1,84 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {info} from '../data'
 import "./Project.scss";
+
+
 function Project() {
+    const [state, setState] = useState(info);
+
+    const handleFilter=(e)=>{
+        let filterWord = e.target.value;
+
+        if (filterWord ==='all'){
+            setState(info);
+        }
+        else if (filterWord ==='code'){
+            const filtered= info.filter (
+                item=>item.kind ==='code'
+            )
+            setState(filtered);
+
+        }
+       else if (filterWord ==='wordpress'){
+            const filtered= info.filter (
+                item=>item.kind ==='wordpress'
+            )
+            setState(filtered);
+
+        }        
+
+    }
+    
+
+
     return (
         <div className='proj'>
-         <h1> Code </h1> 
-        <div className= 'proj-container'>
+            <div className="filterBtns">
+                <button autofocus value ="all" onClick={handleFilter} >All</button>
+                <button value ="code" onClick={handleFilter}>Code</button>
+                <button value ="wordpress" onClick={handleFilter}>Wordpress</button>
+            </div>
+
+            
+            <div className= 'proj-container'>
             <section className='container'>
 
-                 <div className="P-btn">
+         {state.map((item,index) =>(
+
+<div className="P-btn" key={item.id}>
                  <div className="card">
                     <div className="imgBx">
-                        <img src="images/potorofolia bild.png" alt="potorofolia" />
+                        <img src={ process.env.PUBLIC_URL + item.picture } 
+                        alt = {item.name}
+                         />
                     </div>
                     <div className="content">
-                        <h2>Portfolio</h2>
-                        <p>React js, React particle js</p>
-                        {/* <p>This project is a functional To-Do list application utilizing React class components and the Web Storage API to store data in localStorage.</p> */}
+                        <h2>{item.name}</h2> 
+                        <p>{item.technique}</p>
                     </div>
-
                    </div>
-                     <button>
-                         <a href= "https://github.com/liesse97/React-Portofolia.git" target="_blank" rel="noreferrer">
+                   
+                     { item.codeLink?<button>
+                         <a href= {item.codeLink} target="_blank" rel="noreferrer">
                           View code
                           </a>
-                       </button> 
-                    <button id="left-space">
-                        <a href= "https://liesse.netlify.app/"target="_blank" rel="noreferrer">
+                       </button> : null}
+
+                   <button id="left-space">
+                        <a href= {item.liveLink} target="_blank" rel="noreferrer">
                         View live
-                        </a>
+                        </a> 
                         </button> 
-
-                     </div>
-
-                {/* card 2 */}
-                     <div className="P-btn">
-                 <div className="card">
-                    <div className="imgBx">
-                        <img src="images/Mychat.png" alt="chat" />
-                    </div>
-                    <div className="content">
-                        <h2>Chat Application</h2>
-                        <p>React JS, Firebase, Chat Engine</p>
-                    </div>
-
-                   </div>
-                     <button>
-                        <a href= " https://github.com/liesse97/Chat-react.git" target="_blank" rel="noreferrer">
-                         View code
-                         </a>
-                         </button>
-
-                           <button id="left-space"> 
-                    <a href= "https://mychat2.netlify.app/" target="_blank" rel="noreferrer">
-                        View live
-                        </a>
-                        </button> 
-                          
-                     </div>
-
-                          {/* card 3 */}
-                          <div className="P-btn">
-                    <div className="card">
-                    <div className="imgBx">
-                        <img src="images/music.png" alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>Music player</h2>
-                        <p>HTML/CSS JS</p>
-                    </div>
-                    
-                    
-                </div>
-                    <button>
-                       <a href= "https://github.com/liesse97/Music-player.git" target="_blank" rel="noreferrer">
-                           View code
-                           </a>
-                           </button> 
-
-                    <button id="left-space"> 
-                    <a href= "https://music-player2.netlify.app/" target="_blank" rel="noreferrer">
-                        View live
-                        </a>
-                        </button>            
-                         </div>
-
-                
-            </section>
-            
         </div>
-        <h1>Wordpress</h1>
-                <div className= 'proj-container'>
 
-                    <section className='container'>
+         ))}
 
-        <div className="P-btn">
-                 <div className="card">
-                    <div className="imgBx">
-                        <img src="images/föbu-sverige.png" alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>föbu-sverige</h2>
-                        <p>Wordpress</p>
-                        {/* <p>This project is a functional To-Do list application utilizing React class components and the Web Storage API to store data in localStorage.</p> */}
-                    </div>
+                     </section> 
+                              </div> 
 
-                   </div>
-                    <button id="left-space"> 
-                    <a href= "https://www.fobu-sverige.se/" target="_blank" rel="noreferrer">
-                        View live 
-                        </a></button> 
-
-                     </div>
-
-                {/* card 2 */}
-                     <div className="P-btn">
-                 <div className="card">
-                    <div className="imgBx">
-                        <img src="images/bellhair.png" alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>Bellhair&Beauty</h2>
-                        <p>Wordpress , E-commerce</p>
-                    </div>
-
-                   </div>
-                     <button>Coming soon</button> 
-                     </div>
-
-                          {/* card 3 */}
-                          {/* <div className="P-btn">
-                    <div className="card">
-                    <div className="imgBx">
-                        <img src="images/to-do.png" alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>Kazozabyrå</h2>
-                        <p>Wordpress</p>
-                    </div>
-                    
-                </div>
-                <button>Coming soon</button>
-                </div> */}
-                </section>
                 </div>
 
 
-        </div>
     )
 }
 

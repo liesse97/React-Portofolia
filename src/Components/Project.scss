@@ -1,12 +1,27 @@
-// * {
-//   margin: 0;
-//   padding: 0;
-// }
 .proj {
-  h1 {
-    color: #000;
-    text-decoration: underline;
-    font-size: 2em;
+  .filterBtns {
+    padding: 3em 0;
+    button {
+      background-color: #fff;
+      cursor: pointer;
+      margin: 0 1em;
+      padding: 0.7em 1.7em;
+      border: 2px solid black;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 15px;
+      @media screen and (max-width: 380px) {
+        margin-bottom: 0.7em;
+      }
+    }
+    button:hover {
+      background-color: #f48a17;
+      color: #ffff;
+    }
+    button:focus {
+      background-color: #f48a17;
+      color: #ffff;
+    }
   }
   .proj-container {
     display: flex;

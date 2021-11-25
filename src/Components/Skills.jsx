@@ -1,10 +1,24 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {skillsInfo} from '../data'
+
+import "./Navbar.scss";
+
 
 const Skills= ()=> {
+        const [state, setState] = useState(skillsInfo);
     return (
         <div>
-            <h1>Skills</h1>
-        </div>
+           {state.map((item,index )=>
+            (
+           <img
+        className="home-img"
+        src={process.env.PUBLIC_URL + item.image }
+        alt={item.alt}
+      />
+
+      ))}
+
+       </div>
     )
 }
 

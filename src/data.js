@@ -1,5 +1,5 @@
-
-export default [
+//project component info
+const info= [
     {
         id:1,
         kind:'code',
@@ -46,8 +46,39 @@ export default [
     //     liveLink:"coming soon",
     // },
 
+];
 
+//Skills component info
 
+const skillsInfo=[
+    {
+        image:'/images/html.jpg',
+        alt:'html-pic',
+},
+  {
+        image:'/images/css.jpg',
+        alt:'css-pic',
+},
+{
+        image:'/images/javascript.jpg',
+        alt:'javascript-pic',
+},
+{
+        image:'images/wordpress.png',
+        alt:'wordpress-pic',
+},
+{
+        image:'images/react.jpg',
+        alt:'react-pic',
+},
+{
+        image:'images/figma.png',
+        alt:'figma-pic',
+},
+{
+        image:'images/sass.png',
+        alt:'sass-pic',
+},
+];
 
-]
-;
+export {info,skillsInfo};

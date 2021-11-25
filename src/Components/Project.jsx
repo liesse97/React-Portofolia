@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import info from '../data'
+import {info} from '../data'
 import "./Project.scss";
 
 
@@ -37,9 +37,9 @@ function Project() {
                 <button autofocus value ="all" onClick={handleFilter} >All</button>
                 <button value ="code" onClick={handleFilter}>Code</button>
                 <button value ="wordpress" onClick={handleFilter}>Wordpress</button>
-
-
             </div>
+
+            
             <div className= 'proj-container'>
             <section className='container'>
 
@@ -57,15 +57,17 @@ function Project() {
                         <p>{item.technique}</p>
                     </div>
                    </div>
-                     <button>
+                   
+                     { item.codeLink?<button>
                          <a href= {item.codeLink} target="_blank" rel="noreferrer">
                           View code
                           </a>
-                       </button> 
-                    <button id="left-space">
+                       </button> : null}
+
+                   <button id="left-space">
                         <a href= {item.liveLink} target="_blank" rel="noreferrer">
                         View live
-                        </a>
+                        </a> 
                         </button> 
         </div>
 

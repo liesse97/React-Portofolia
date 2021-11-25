@@ -34,7 +34,7 @@ function Project() {
     return (
         <div className='proj'>
             <div className="filterBtns">
-                <button autofocus value ="all" onClick={handleFilter} >All</button>
+                <button autofocus value ="allC" onClick={handleFilter} >All</button>
                 <button value ="code" onClick={handleFilter}>Code</button>
                 <button value ="wordpress" onClick={handleFilter}>Wordpress</button>
             </div>

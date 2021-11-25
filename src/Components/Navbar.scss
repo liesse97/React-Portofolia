@@ -152,12 +152,18 @@ nav {
       text-align: center;
       font-size: 3em;
       line-height: 100%;
+      @media screen and (max-width: 375px) {
+        font-size: 2.6em;
+      }
     }
     p {
       font-size: 1.7em;
       align-items: center;
       text-align: center;
       padding-bottom: 1em;
+      @media screen and (max-width: 375px) {
+        font-size: 1.5em;
+      }
     }
     .btn-center {
       display: flex;
@@ -244,6 +250,10 @@ nav {
     padding: 0.3em 0 0.3em 0.8em;
     cursor: pointer;
     font-weight: 600;
+    @media screen and (max-width: 375px) {
+      width: 13em;
+      font-size: 1.2em;
+    }
     a {
       color: #000;
     }

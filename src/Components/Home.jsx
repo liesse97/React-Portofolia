@@ -1,10 +1,24 @@
-import React from 'react'
+import React from 'react';
+import "./Navbar.scss";
+
 
 const Home = ()=> {
     return (
         <div>
-            <h1>Home</h1>
-        </div>
+
+                  <img
+          src="images/go.jpg"
+        alt="home-pic"
+      />
+      <section className='text-home'>
+          <h2>Hi, My name is  
+              Liesse </h2>
+          <p>A frontend developer who creates beautiful and functional websites.</p>
+               <div className="btn-center">
+ <a href="images/CV.pdf" download> DOWNLOAD MY CV</a>
+ </div>
+      </section>
+                    </div>
     )
 }
 

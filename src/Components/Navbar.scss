@@ -2,6 +2,15 @@ body {
   margin: 0;
   padding: 0;
 }
+// to take away extra space on the left side for 360px and 280px
+@media only screen and(max-width:360px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -33,7 +42,7 @@ nav {
     @media screen and (max-width: 650px) {
       display: flex;
       flex-direction: column;
-      // width: 30%;
+      // width: 50%;
       width: 33vh;
 
       height: 100vh;

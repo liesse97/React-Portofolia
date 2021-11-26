@@ -218,14 +218,18 @@ nav {
 //Skills
 .skills {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 3em;
+  padding-bottom: 6em;
+
   h1 {
     font-size: 2.7em;
     margin-bottom: 0.5em;
     color: #f48a17;
   }
   img {
-    height: 10em;
+    // height: 10em;
+    // padding: 3em 4em 0;
+    height: 8.5em;
     padding: 3em 4em 0;
   }
 }
@@ -233,7 +237,8 @@ nav {
 //Contact
 .contact {
   // text-align: center;
-  padding-top: 5em;
+  padding-bottom: 5em;
+
   h1 {
     text-align: center;
     font-size: 2.7em;

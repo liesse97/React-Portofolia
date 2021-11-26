@@ -85,8 +85,8 @@ const { Meta } = Card;
 
           
 
-          <section className="contact" id="contact">
-          <h1>Contact me</h1>
+          <section className="contact" >
+          <h1 id="contact">Contact me</h1>
           <Contact/>         
 </section>
 

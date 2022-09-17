@@ -3,7 +3,7 @@ const info= [
     {
         id:1,
         kind:'code',
-        name: "Portfolia",
+        // name: "Portfolia",
         technique:"React js, React particle js",
         picture:"/images/potorofolia bild.png",
         codeLink:"https://github.com/liesse97/React-Portofolia.git",
@@ -37,14 +37,14 @@ const info= [
         picture:"images/föbu-sverige.png",
         liveLink:"https://www.fobu-sverige.se/",
     },
-    //  {
-    //     id:5,
-    //     kind:'wordpress',
-    //     name: 'Bellhair&Beauty',
-    //     technique:'Wordpress , E-commerce',
-    //     picture:"images/bellhair.png",
-    //     liveLink:"coming soon",
-    // },
+     {
+        id:5,
+        kind:'code',
+        name: 'Movie app',
+        technique:'React Js, Api, Bootstrap',
+        picture:"images/movieApp.jpg",
+        liveLink:"https://1themovies.netlify.app",
+    },
 
 ];
 

@@ -10,18 +10,9 @@ const info= [
         liveLink:"https://liesse.netlify.app/"
     },
 
- {
-        id:2,
-        kind:'code',
-        name: "Chat Application",
-        technique:'React JS, Firebase, Chat Engine',
-        picture:"images/Mychat.png",
-        codeLink:" https://github.com/liesse97/Chat-react.git",
-        liveLink:"https://mychat2.netlify.app/"
-    },
 
      {
-        id:3,
+        id:2,
         kind:'code',
         name: 'Music player',
         technique:'HTML/CSS JS',
@@ -30,7 +21,7 @@ const info= [
         liveLink:"https://music-player2.netlify.app/" 
     },
      {
-        id:4,
+        id:3,
         kind:'wordpress',
         name: 'Föbu-sverige',
         technique:'Wordpress, Design',
@@ -38,7 +29,7 @@ const info= [
         liveLink:"https://www.fobu-sverige.se/",
     },
      {
-        id:5,
+        id:4,
         kind:'code',
         name: 'Movie app',
         technique:'React Js, Api, Bootstrap',
@@ -47,7 +38,7 @@ const info= [
         liveLink:"https://1themovies.netlify.app",
     },
    {
-        id:6,
+        id:5,
         kind:'code',
         name: 'Teori app',
         technique:'React Js, React Context, Tailwind css, localstorage',
@@ -57,7 +48,7 @@ const info= [
     },
          { 
 
-        id:7,
+        id:6,
         kind:'code',
         name: 'VPD',
         technique:'Vanilla JS, Css, Api, Design(UI/UX), Figma',
@@ -66,12 +57,21 @@ const info= [
     },
         { 
 
-        id:8,
+        id:7,
         kind:'wordpress',
         name: 'Bless Classic Hair',
         technique:'Wordpress, Design(UI/UX), Figma',
         picture:"images/blessHair.png",
         liveLink:"https://vpd.se/",
+    },
+     {
+        id:8,
+        kind:'code',
+        name: "Chat Application",
+        technique:'React JS, Firebase, Chat Engine',
+        picture:"images/Mychat.png",
+        codeLink:" https://github.com/liesse97/Chat-react.git",
+        liveLink:"https://mychat2.netlify.app/"
     },
 ];
 

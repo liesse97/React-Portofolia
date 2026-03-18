@@ -10,21 +10,22 @@ const info= [
         liveLink:"https://liesse.netlify.app/"
     },
 
-
-     {
+         {
         id:2,
         kind:'code',
-        name: 'Music player',
-        technique:'HTML/CSS JS',
-        picture:"images/music.png",
-        codeLink:"https://github.com/liesse97/Music-player.git",
-        liveLink:"https://music-player2.netlify.app/" 
+        name: "Scantax",
+        technique:'React JS, Typescript, Supabase, Tailwind Css',
+        picture:"images/scantax.png",
+        codeLink:" https://github.com/liesse97/newscantax",
+        liveLink:"https://www.scantax.se/"
     },
+
+
      {
         id:3,
         kind:'wordpress',
         name: 'Föbu-sverige',
-        technique:'Wordpress, Design',
+        technique:'Wordpress, Design(UI/UX), Google analytics, Blocksy',
         picture:"images/föbu-sverige.png",
         liveLink:"https://www.fobu-sverige.se/",
     },
@@ -60,20 +61,56 @@ const info= [
         id:7,
         kind:'wordpress',
         name: 'Bless Classic Hair',
-        technique:'Wordpress, Design(UI/UX), Figma',
+        technique:'Wordpress, Design(UI/UX), Google analytics, Blocksy',
         picture:"images/blessHair.png",
-        liveLink:"https://vpd.se/",
+        liveLink:"https://www.blessclassichair.com/",
     },
-     {
+
+        {
         id:8,
-        kind:'code',
-        name: "Chat Application",
-        technique:'React JS, Firebase, Chat Engine',
-        picture:"images/Mychat.png",
-        codeLink:" https://github.com/liesse97/Chat-react.git",
-        liveLink:"https://mychat2.netlify.app/"
+        kind:'wordpress',
+        name: "Ollie & Elof Ericssons Stiftelse",
+        technique:'Wordpress, Elementor',
+        picture:"images/oestifelse.png",
+        liveLink:"https://www.oestiftelse.se/"
     },
+
+           {
+        id:9,
+        kind:'wordpress',
+        name: "Maestrobartender",
+        technique:'Wordpress, Design(UI/UX), Google analytics, Blocksy',
+        picture:"images/maestro.png",
+        liveLink:"https://www.maestrobartender.com/"
+    },
+
+    
+     {
+        id:10,
+        kind:'code',
+        name: 'Music player',
+        technique:'HTML/CSS JS',
+        picture:"images/music.png",
+        codeLink:"https://github.com/liesse97/Music-player.git",
+        liveLink:"https://music-player2.netlify.app/" 
+    },
+
+    
+  
+    
+
+ 
 ];
+
+  //  {
+    //    id:8,
+      //  kind:'code',
+      //  name: "Chat Application",
+       // technique:'React JS, Firebase, Chat Engine',
+       // picture:"images/Mychat.png",
+        //codeLink:" https://github.com/liesse97/Chat-react.git",
+        //liveLink:"https://mychat2.netlify.app/"
+    //},
 
 //Skills component info
 

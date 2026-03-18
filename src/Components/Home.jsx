@@ -14,9 +14,10 @@ const Home = ()=> {
           <h2>Hi, My name is  
               Liesse </h2>
           <p>A frontend developer who creates beautiful and functional websites.</p>
-               <div className="btn-center">
- <a href="images/CV.pdf" download> DOWNLOAD MY CV</a>
- </div>
+    
+    {/*Remove button but can added back later */}
+        {/*  <div className="btn-center"> 
+        <a href="images/CV.pdf" download> DOWNLOAD MY CV</a> </div>*/}
       </section>
                     </div>
     )
